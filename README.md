@@ -10,7 +10,7 @@ This script was created with best practices, so it is more resilient, such as:
 * No third party
 * One validation per transaction
 * Think times at the end of each transaction to better simulate user behavior
-* SAP credentials parametrized
+* SAP credentials and orderNumber parametrized
 
 This SAP Web script logs on, enters Tcode VA03 to search for an order, searches an order, goes to it, then signs out
 
